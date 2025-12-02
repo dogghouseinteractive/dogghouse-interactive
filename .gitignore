@@ -1,0 +1,22 @@
+# WordPress
+wp-config.php
+.htaccess
+
+# Environment files
+.env
+.env.local
+
+# Credentials and secrets
+**/google/*.json
+**/*credentials*.json
+**/*calendar*.json
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Node modules (if any)
+node_modules/
+
+# Compiled files
+*.map
