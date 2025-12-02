@@ -1,6 +1,30 @@
-# WordPress
+# WordPress Core (WP Engine manages this)
+wp-admin/
+wp-includes/
+*.php
+!wp-content/
+
+# Allow theme PHP files
+!wp-content/**/*.php
+
+# WordPress Configuration
 wp-config.php
 .htaccess
+
+# WP Engine specific
+.git-ftp-ignore
+.gitattributes
+_wpeprivate/
+
+# Uploads (managed on server)
+wp-content/uploads/
+
+# Plugins (managed on server, unless you want to version control specific ones)
+wp-content/plugins/
+
+# Cache
+wp-content/cache/
+wp-content/advanced-cache.php
 
 # Environment files
 .env
@@ -15,7 +39,7 @@ wp-config.php
 .DS_Store
 Thumbs.db
 
-# Node modules (if any)
+# Node modules
 node_modules/
 
 # Compiled files
